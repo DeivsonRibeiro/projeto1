@@ -1,0 +1,8 @@
+1 import sys
+2
+3 nome = input("Digite seu nome: ")
+4 idade = input("Digite sua idade: ")
+5 print("Digite seu sexo: ")
+6 sexo = sys.stdin.readline()
+7
+8 print("Nome:"+nome + "\n" + "Sexo: %s Idade: %s" %(sexo,idade))
